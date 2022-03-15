@@ -1,0 +1,429 @@
+body {
+	margin: 0;
+	padding: 0;
+	}
+header {
+	background-position: center;
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	
+}
+img, a, p, span, h1, h2, h3, h4, h5, h6 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* Header Section Code Strt From Here */
+.nav-link {
+	color: #ffffff !important;
+	font-size: 20px;
+	padding: 0px 20px !important;
+}
+.nav-link:hover {
+	color: #e56c2f !important;
+}
+.n-icon{
+	padding-left: 50px !important;
+}
+.n-icon i{
+	padding: 10px;
+	border-radius: 100%;
+	background-color: #ffffff;
+	margin: 0px 5px;
+}
+.n-icon i:hover{
+   background-color: yellow;
+   transition: 3s;
+}
+.header{
+	background-color: #00000069 !important;
+}
+
+/* Header Section Code End From Here */
+
+/* Banner Section Code Strt From Here */
+.banner-section{
+
+}
+.banner {
+	padding-top: 100px !important;
+}
+.b-content{
+
+}
+.b-content h3{
+	padding-top: 50px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.b-content p{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 20px 0px !important;
+}
+.b-content button {
+	border: none;
+	padding: 12px 18px;
+	border-radius: 36px;
+	text-transform: uppercase;	
+  background-image: linear-gradient(to right, #7bb842, #d87531);
+
+}
+.hero {
+	height: 450px; 
+	width: 450px;
+}
+/* Banner Section Code End From Here */
+/* About Us Section Code Start From Here */
+.about-content {
+	text-align: center;
+}
+.about-content h3 {
+	text-align: center;
+	padding: 30px 0px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.about-content p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 150px !important;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+/* About Us Section Code End From Here */
+/* Road Map Section Code Start From Here */
+.roadmap{
+	padding-top: 50px;
+	text-align: center;
+}
+.roadmap-box {
+	height: 200px !important;
+}
+.roadmap-heading {
+	text-align: center !important;
+}
+.roadmap-heading h3 {
+	text-align: center;
+	padding: 30px 0px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.r-heading{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px !important;
+	text-shadow: 2px #000000;
+	 margin-top: 114px !important;
+}
+
+
+.r-text {
+	color: #ffffff;
+	font-size: 16px !important;
+	text-align: left;
+	font-weight: 500;
+	background-color: #90a566;
+	border-radius: 10px;
+	padding: 20px 25px !important;
+	margin-top: 86px !important;
+
+
+}
+.roadmap-box{
+	margin: 7px 0px;
+}
+/* Road Map Section Code End From Here */
+
+
+/* Team Section Code Start From Here */
+.team-content {
+	text-align: center;
+}
+.team-content h3 {
+	text-align: center;
+	padding: 30px 0px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.team-content p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 150px !important;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+.box {
+	text-align: center;
+	color: #ffffff;
+	margin-top: 50px;
+}
+.box h4{
+	text-align: center;
+	color: #ffffff;
+}
+.box p{
+	text-align: center;
+	color: #ffffff;
+	padding: 10px 0px !important;
+}
+.box-icon {
+	text-align: center;
+	color: #ffffff;
+}
+.box i {
+	text-align: center;
+	color: #ffffff;
+}
+
+/* Team Section Code End From Here */
+/* FAQ Section Code Start From Here */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+
+h1 {
+ font-family: "Lato", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #98c23d;
+  font-size: 32px;
+  
+}
+
+
+.content {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 0 60px 0 0;
+}
+
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+.question {
+  color: #fff;
+  position: relative;
+  background: #74a444;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+  margin: 3px !important;
+}
+
+.answers {
+  font-weight:300;
+  background: #f2f2f2;
+  padding: 0px 15px;
+  margin: 0px 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+.answers p {
+	color: #000;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  color:#fff;
+  position: absolute;
+  right: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+}
+
+
+/* FAQ Section Code End From Here */
+/* Footer Section Code End From Here */
+.footer-section {
+	background-image: linear-gradient(to top, #d875317a, #7bb84278);
+	margin-top: 50px;
+
+}
+.contact {
+	padding-bottom: 50px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.contact h3 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 10px !important;
+}
+.contact p{
+	color: #ffffff;
+}
+
+
+form {
+	padding: 50px 0px !important;
+}
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #ffffff;
+	color: #ffffff;
+}
+.input1{
+	margin-right: 50px !important;
+}
+
+form button{
+	background: transparent;
+	padding: 15px 40px !important;
+	text-transform: uppercase;
+	border-radius: 40px;
+	border: 2px solid #ffffff;
+	margin-left: 40px !important;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+
+
+
+.contact h5{
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0px !important;
+} 
+.f-menu{
+	text-align: center !important;
+}
+.f-menu ul {
+	list-style: none;
+}
+.f-menu ul li {
+	display: inline-block !important;
+}
+.f-menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px 30px !important;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+}
+.copyright {
+	text-align: center;
+	color: #ffffff;
+	padding: 40px 0px;
+	border-top: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
